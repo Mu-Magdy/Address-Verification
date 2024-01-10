@@ -29,7 +29,7 @@ This Flask app verifies if a given address is in Cairo governorate with a specif
     ```
     Verify that the app responds correctly to the test request.
 
-## 3. How to Verify the Result
+## How to Verify the Result
 - The app response should include the input address, whether it is in Cairo governorate, and the confidence score as a json file.
 
 - Adjust the confidence threshold in ```app.py``` if needed and test with different addresses.

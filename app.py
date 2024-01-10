@@ -28,7 +28,6 @@ def verify_address():
         if not address.strip():
             raise ValueError("The 'address' field is empty.")
 
-        # Tokenize and pad the input address
         sequence = tokenizer.texts_to_sequences([address])
         padded_sequence = pad_sequences(sequence, maxlen=7, padding="post")
 
