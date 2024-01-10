@@ -3,7 +3,7 @@ import time
 
 server_url = "http://127.0.0.1:5000/verify_address"
 
-test_data = {"address": "حلوان"}
+test_data = {"address": "شارع العربي، أول مدينة نصر،  رقم 20"}
 
 
 num_requests = 10
